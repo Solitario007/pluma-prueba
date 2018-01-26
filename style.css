@@ -1,0 +1,10 @@
+label, input:not([type=radio]):not([type=checkbox]){/* not niega el bloque o block como radio es inline queda horizontal y se anida con
+  :not para el caso de checkbox */
+  display:block;
+}
+  label,input[type=submit]{/*para darle a submit un espacio de 20*/
+    margin-top: 20px;  
+}
+label:first-of-type{/*para que nombre ni consulta tengan espacios*/
+  margin-top: 0px;
+}
